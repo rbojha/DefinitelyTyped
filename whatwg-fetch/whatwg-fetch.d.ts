@@ -15,6 +15,7 @@ declare class Request extends Body {
 	mode: string|RequestMode;
 	credentials: string|RequestCredentials;
 	cache: string|RequestCache;
+	clone(): Request;
 }
 
 interface RequestInit {
