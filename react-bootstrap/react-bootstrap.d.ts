@@ -720,6 +720,10 @@ declare module "react-bootstrap" {
         listItem?: boolean;
         onClick?: Function; // TODO: Add more specific type
         target?: string;
+        draggable?: boolean;
+        onDragStart?: React.DragEventHandler;
+        onDrop?: React.DragEventHandler;
+        onDragOver?: React.DragEventHandler;
     }
     interface ListGroupItem extends React.ReactElement<ListGroupItemProps> { }
     interface ListGroupItemClass extends React.ComponentClass<ListGroupItemProps> { }
