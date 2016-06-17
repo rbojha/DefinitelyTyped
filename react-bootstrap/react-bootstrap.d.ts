@@ -724,6 +724,10 @@ declare module "react-bootstrap" {
         onDragStart?: React.DragEventHandler;
         onDrop?: React.DragEventHandler;
         onDragOver?: React.DragEventHandler;
+        onDragEnd?: React.DragEventHandler;
+        onDragExit?: React.DragEventHandler;
+        onDragLeave?: React.DragEventHandler;
+        onDragEnter?: React.DragEventHandler;
     }
     interface ListGroupItem extends React.ReactElement<ListGroupItemProps> { }
     interface ListGroupItemClass extends React.ComponentClass<ListGroupItemProps> { }
